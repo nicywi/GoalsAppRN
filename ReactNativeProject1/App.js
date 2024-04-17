@@ -1,4 +1,4 @@
-import { StyleSheet, SafeAreaView, Text, View, Button } from 'react-native';
+import { StyleSheet, SafeAreaView, Text, View, Button, TouchableOpacity } from 'react-native';
 
 const Separator = () => <View style={styles.separator} />;
 
@@ -6,13 +6,18 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
     <View>
-      <Text>Hello from new App</Text>
+      <Text style={{margin: 20, borderColor: 'pink', 
+      borderWidth: 6, padding: 20, backgroundColor: 'yellow'}}>
+        Hello from new App</Text>
       <Button
         title="Press me"
         onPress={() => Alert.alert('Cannot press this one')}
       />
       <Separator />
-      <Button title="Tap me!" color="#f194ff" />
+      <Button title="Tap here!" style={styles.button} />
+      <TouchableOpacity onPress={() => console.log('Tapped!')} style={styles.button}>
+          <Text style={styles.buttonText}>Tap here!</Text>
+        </TouchableOpacity>
     
     </View>
      <Separator />
@@ -27,14 +32,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   button: {
-    backgroundColor: 'red',
+    backgroundColor: 'greenyellow',
     justifyContent: 'center',
+    alignItems: 'center',
     margin: 20,
-    padding: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: 'mediumslateblue', 
+    fontSize: 16,
   },
   separator: {
     marginVertical: 8,
     borderBottomColor: 'red',
-    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomWidth: 2,
   },
 });
