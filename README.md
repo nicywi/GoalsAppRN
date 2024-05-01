@@ -21,7 +21,7 @@ This repository contains a simple mobile application built with React Native for
 
 ## About
 
-This project is a part of the Udemy course titled **React Native - The Practical Guide [2024]**. The purpose of this project is to provide hands-on experience and learning opportunities in React Native development. 
+This project is a part of the Udemy course titled **React Native - The Practical Guide [2024]**. The purpose of this project is to provide hands-on experience and learning opportunities in React Native development. Additionally, this project was developed during an internship with Sondmade, showcasing practical application of skills learned in a professional setting.
 
 ## Installation
 
