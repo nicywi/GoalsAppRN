@@ -9,7 +9,7 @@ This repository contains a simple mobile application built with React Native for
 - **Delete Goals**: Users can delete goals they no longer wish to track.
 - **Modal Input**: Goal input is facilitated through a modal for a seamless user experience.
 - **Responsive Design**: The app is designed to adapt to various screen sizes.
-
+  
 ## Technologies Used
 
 - **React Native**: A framework for building native applications using React.
@@ -22,6 +22,8 @@ This repository contains a simple mobile application built with React Native for
 ## About
 
 This project is a part of the Udemy course titled **React Native - The Practical Guide [2024]**. The purpose of this project is to provide hands-on experience and learning opportunities in React Native development. Additionally, this project was developed during an **internship with Soundmade**, showcasing practical application of skills learned in a professional setting.
+  
+![Screen_Recording_20240501_114353_ExpoGo-ezgif com-video-to-gif-converter](https://github.com/nicywi/GoalsAppRN/assets/32416862/5410fca4-505b-4a18-8ac6-afcd78866754)
 
 ## Installation
 
